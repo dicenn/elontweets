@@ -1,0 +1,541 @@
+{
+  "metrics": {
+    "n_periods": 22,
+    "mean_brier_score": 0.1141,
+    "median_brier_score": 0.1124,
+    "bucket_accuracy": 0.1818,
+    "top2_accuracy": 0.3636,
+    "mean_abs_error": 81.0,
+    "mean_prob_for_actual": 0.1948,
+    "simulated_pnl_vs_uniform": 909.42,
+    "simulated_roi_vs_uniform": 90.94
+  },
+  "calibration": {
+    "0-174": {
+      "mean_predicted_prob": 0.0579,
+      "actual_frequency": 0.0909,
+      "calibration_gap": 0.033
+    },
+    "175-224": {
+      "mean_predicted_prob": 0.1625,
+      "actual_frequency": 0.0909,
+      "calibration_gap": 0.0716
+    },
+    "225-274": {
+      "mean_predicted_prob": 0.2092,
+      "actual_frequency": 0.1818,
+      "calibration_gap": 0.0274
+    },
+    "275-324": {
+      "mean_predicted_prob": 0.1789,
+      "actual_frequency": 0.1364,
+      "calibration_gap": 0.0426
+    },
+    "325-374": {
+      "mean_predicted_prob": 0.1245,
+      "actual_frequency": 0.3182,
+      "calibration_gap": 0.1937
+    },
+    "375-424": {
+      "mean_predicted_prob": 0.0856,
+      "actual_frequency": 0.0455,
+      "calibration_gap": 0.0402
+    },
+    "425-474": {
+      "mean_predicted_prob": 0.0735,
+      "actual_frequency": 0.0,
+      "calibration_gap": 0.0735
+    },
+    "475+": {
+      "mean_predicted_prob": 0.1079,
+      "actual_frequency": 0.1364,
+      "calibration_gap": 0.0284
+    }
+  },
+  "periods": [
+    {
+      "period": "2025-10-20 to 2025-10-26",
+      "actual_count": 216,
+      "actual_bucket": "175-224",
+      "predicted_mu": 217.0,
+      "predicted_std": 42.3,
+      "predicted_bucket": "175-224",
+      "correct": true,
+      "in_top2": true,
+      "brier_score": 0.0617,
+      "model_prob_for_actual": 0.4127,
+      "bucket_probs": {
+        "0-174": 0.158075,
+        "175-224": 0.412664,
+        "225-274": 0.342174,
+        "275-324": 0.081538,
+        "325-374": 0.00545,
+        "375-424": 9.9e-05,
+        "425-474": 0.0,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-10-27 to 2025-11-02",
+      "actual_count": 192,
+      "actual_bucket": "175-224",
+      "predicted_mu": 234.1,
+      "predicted_std": 40.4,
+      "predicted_bucket": "225-274",
+      "correct": false,
+      "in_top2": true,
+      "brier_score": 0.0821,
+      "model_prob_for_actual": 0.3359,
+      "bucket_probs": {
+        "0-174": 0.070082,
+        "175-224": 0.335868,
+        "225-274": 0.435209,
+        "275-324": 0.14618,
+        "325-374": 0.012405,
+        "375-424": 0.000255,
+        "425-474": 1e-06,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-11-03 to 2025-11-09",
+      "actual_count": 174,
+      "actual_bucket": "0-174",
+      "predicted_mu": 226.1,
+      "predicted_std": 41.2,
+      "predicted_bucket": "225-274",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1391,
+      "model_prob_for_actual": 0.1054,
+      "bucket_probs": {
+        "0-174": 0.105441,
+        "175-224": 0.37903,
+        "225-274": 0.395186,
+        "275-324": 0.111815,
+        "325-374": 0.008368,
+        "375-424": 0.00016,
+        "425-474": 1e-06,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-11-10 to 2025-11-16",
+      "actual_count": 262,
+      "actual_bucket": "225-274",
+      "predicted_mu": 201.9,
+      "predicted_std": 40.6,
+      "predicted_bucket": "175-224",
+      "correct": false,
+      "in_top2": true,
+      "brier_score": 0.1045,
+      "model_prob_for_actual": 0.2521,
+      "bucket_probs": {
+        "0-174": 0.249464,
+        "175-224": 0.461624,
+        "225-274": 0.252129,
+        "275-324": 0.035527,
+        "325-374": 0.001245,
+        "375-424": 1e-05,
+        "425-474": 0.0,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-11-17 to 2025-11-23",
+      "actual_count": 168,
+      "actual_bucket": "0-174",
+      "predicted_mu": 224.0,
+      "predicted_std": 44.9,
+      "predicted_bucket": "175-224",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1291,
+      "model_prob_for_actual": 0.1348,
+      "bucket_probs": {
+        "0-174": 0.134806,
+        "175-224": 0.369285,
+        "225-274": 0.365501,
+        "275-324": 0.117819,
+        "325-374": 0.012189,
+        "375-424": 0.000396,
+        "425-474": 4e-06,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-11-24 to 2025-11-30",
+      "actual_count": 274,
+      "actual_bucket": "225-274",
+      "predicted_mu": 198.3,
+      "predicted_std": 39.1,
+      "predicted_bucket": "175-224",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1127,
+      "model_prob_for_actual": 0.2257,
+      "bucket_probs": {
+        "0-174": 0.271772,
+        "175-224": 0.476846,
+        "225-274": 0.22566,
+        "275-324": 0.025093,
+        "325-374": 0.000626,
+        "375-424": 3e-06,
+        "425-474": 0.0,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-12-01 to 2025-12-07",
+      "actual_count": 369,
+      "actual_bucket": "325-374",
+      "predicted_mu": 211.0,
+      "predicted_std": 40.5,
+      "predicted_bucket": "175-224",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.166,
+      "model_prob_for_actual": 0.0025,
+      "bucket_probs": {
+        "0-174": 0.184014,
+        "175-224": 0.44664,
+        "225-274": 0.310829,
+        "275-324": 0.05597,
+        "325-374": 0.002519,
+        "375-424": 2.7e-05,
+        "425-474": 0.0,
+        "475+": 0.0
+      }
+    },
+    {
+      "period": "2025-12-08 to 2025-12-14",
+      "actual_count": 311,
+      "actual_bucket": "275-324",
+      "predicted_mu": 263.1,
+      "predicted_std": 49.1,
+      "predicted_bucket": "225-274",
+      "correct": false,
+      "in_top2": true,
+      "brier_score": 0.0838,
+      "model_prob_for_actual": 0.3025,
+      "bucket_probs": {
+        "0-174": 0.035666,
+        "175-224": 0.180473,
+        "225-274": 0.375888,
+        "275-324": 0.302473,
+        "325-374": 0.093862,
+        "375-424": 0.011131,
+        "425-474": 0.000498,
+        "475+": 8e-06
+      }
+    },
+    {
+      "period": "2025-12-15 to 2025-12-21",
+      "actual_count": 339,
+      "actual_bucket": "325-374",
+      "predicted_mu": 273.2,
+      "predicted_std": 52.9,
+      "predicted_bucket": "225-274",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1225,
+      "model_prob_for_actual": 0.1385,
+      "bucket_probs": {
+        "0-174": 0.031106,
+        "175-224": 0.147602,
+        "225-274": 0.33094,
+        "275-324": 0.323998,
+        "325-374": 0.138491,
+        "375-424": 0.02573,
+        "425-474": 0.002062,
+        "475+": 7.2e-05
+      }
+    },
+    {
+      "period": "2025-12-22 to 2025-12-28",
+      "actual_count": 336,
+      "actual_bucket": "325-374",
+      "predicted_mu": 322.9,
+      "predicted_std": 58.0,
+      "predicted_bucket": "275-324",
+      "correct": false,
+      "in_top2": true,
+      "brier_score": 0.079,
+      "model_prob_for_actual": 0.3021,
+      "bucket_probs": {
+        "0-174": 0.00527,
+        "175-224": 0.039691,
+        "225-274": 0.157166,
+        "275-324": 0.308925,
+        "325-374": 0.30207,
+        "375-424": 0.146923,
+        "425-474": 0.035466,
+        "475+": 0.004488
+      }
+    },
+    {
+      "period": "2025-12-29 to 2026-01-04",
+      "actual_count": 570,
+      "actual_bucket": "475+",
+      "predicted_mu": 328.8,
+      "predicted_std": 56.7,
+      "predicted_bucket": "325-374",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1539,
+      "model_prob_for_actual": 0.0051,
+      "bucket_probs": {
+        "0-174": 0.003231,
+        "175-224": 0.029593,
+        "225-274": 0.136142,
+        "275-324": 0.300864,
+        "325-374": 0.320298,
+        "375-424": 0.164303,
+        "425-474": 0.040513,
+        "475+": 0.005056
+      }
+    },
+    {
+      "period": "2026-01-05 to 2026-01-11",
+      "actual_count": 588,
+      "actual_bucket": "475+",
+      "predicted_mu": 402.2,
+      "predicted_std": 67.1,
+      "predicted_bucket": "375-424",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1164,
+      "model_prob_for_actual": 0.1408,
+      "bucket_probs": {
+        "0-174": 0.000348,
+        "175-224": 0.003719,
+        "225-274": 0.024533,
+        "275-324": 0.095015,
+        "325-374": 0.216401,
+        "375-424": 0.29014,
+        "425-474": 0.229093,
+        "475+": 0.140751
+      }
+    },
+    {
+      "period": "2026-01-12 to 2026-01-18",
+      "actual_count": 507,
+      "actual_bucket": "475+",
+      "predicted_mu": 445.2,
+      "predicted_std": 72.2,
+      "predicted_bucket": "475+",
+      "correct": true,
+      "in_top2": true,
+      "brier_score": 0.0713,
+      "model_prob_for_actual": 0.3426,
+      "bucket_probs": {
+        "0-174": 8.8e-05,
+        "175-224": 0.001024,
+        "225-274": 0.007886,
+        "275-324": 0.03817,
+        "325-374": 0.116324,
+        "375-424": 0.223389,
+        "425-474": 0.270487,
+        "475+": 0.342632
+      }
+    },
+    {
+      "period": "2026-01-19 to 2026-01-25",
+      "actual_count": 407,
+      "actual_bucket": "375-424",
+      "predicted_mu": 487.9,
+      "predicted_std": 68.3,
+      "predicted_bucket": "475+",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1445,
+      "model_prob_for_actual": 0.1281,
+      "bucket_probs": {
+        "0-174": 2e-06,
+        "175-224": 5.5e-05,
+        "225-274": 0.000829,
+        "275-324": 0.007455,
+        "325-374": 0.039979,
+        "375-424": 0.128097,
+        "425-474": 0.245555,
+        "475+": 0.578028
+      }
+    },
+    {
+      "period": "2026-01-26 to 2026-02-01",
+      "actual_count": 365,
+      "actual_bucket": "325-374",
+      "predicted_mu": 503.2,
+      "predicted_std": 62.1,
+      "predicted_bucket": "475+",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1851,
+      "model_prob_for_actual": 0.0171,
+      "bucket_probs": {
+        "0-174": 0.0,
+        "175-224": 4e-06,
+        "225-274": 0.000112,
+        "275-324": 0.001891,
+        "325-374": 0.017126,
+        "375-424": 0.083458,
+        "425-474": 0.219504,
+        "475+": 0.677905
+      }
+    },
+    {
+      "period": "2026-02-02 to 2026-02-08",
+      "actual_count": 260,
+      "actual_bucket": "225-274",
+      "predicted_mu": 467.9,
+      "predicted_std": 65.3,
+      "predicted_bucket": "475+",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1658,
+      "model_prob_for_actual": 0.0014,
+      "bucket_probs": {
+        "0-174": 4e-06,
+        "175-224": 9.4e-05,
+        "225-274": 0.001436,
+        "275-324": 0.012524,
+        "325-374": 0.062253,
+        "375-424": 0.176723,
+        "425-474": 0.286947,
+        "475+": 0.460019
+      }
+    },
+    {
+      "period": "2026-02-09 to 2026-02-15",
+      "actual_count": 286,
+      "actual_bucket": "275-324",
+      "predicted_mu": 404.5,
+      "predicted_std": 70.3,
+      "predicted_bucket": "375-424",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1271,
+      "model_prob_for_actual": 0.0953,
+      "bucket_probs": {
+        "0-174": 0.000534,
+        "175-224": 0.004686,
+        "225-274": 0.026956,
+        "275-324": 0.095266,
+        "325-374": 0.207102,
+        "375-424": 0.277161,
+        "425-474": 0.22841,
+        "475+": 0.159885
+      }
+    },
+    {
+      "period": "2026-02-16 to 2026-02-22",
+      "actual_count": 334,
+      "actual_bucket": "325-374",
+      "predicted_mu": 336.4,
+      "predicted_std": 53.6,
+      "predicted_bucket": "325-374",
+      "correct": true,
+      "in_top2": true,
+      "brier_score": 0.0695,
+      "model_prob_for_actual": 0.3491,
+      "bucket_probs": {
+        "0-174": 0.001267,
+        "175-224": 0.017177,
+        "225-274": 0.105675,
+        "275-324": 0.287931,
+        "325-374": 0.349126,
+        "375-424": 0.188576,
+        "425-474": 0.045233,
+        "475+": 0.005015
+      }
+    },
+    {
+      "period": "2026-02-23 to 2026-03-01",
+      "actual_count": 244,
+      "actual_bucket": "225-274",
+      "predicted_mu": 310.2,
+      "predicted_std": 48.2,
+      "predicted_bucket": "275-324",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1121,
+      "model_prob_for_actual": 0.1918,
+      "bucket_probs": {
+        "0-174": 0.002418,
+        "175-224": 0.035171,
+        "225-274": 0.191757,
+        "275-324": 0.387562,
+        "325-374": 0.292276,
+        "375-424": 0.082021,
+        "425-474": 0.008474,
+        "475+": 0.000322
+      }
+    },
+    {
+      "period": "2026-03-02 to 2026-03-08",
+      "actual_count": 282,
+      "actual_bucket": "275-324",
+      "predicted_mu": 280.0,
+      "predicted_std": 43.2,
+      "predicted_bucket": "275-324",
+      "correct": true,
+      "in_top2": true,
+      "brier_score": 0.0638,
+      "model_prob_for_actual": 0.3994,
+      "bucket_probs": {
+        "0-174": 0.007271,
+        "175-224": 0.091989,
+        "225-274": 0.349824,
+        "275-324": 0.399371,
+        "325-374": 0.137197,
+        "375-424": 0.013938,
+        "425-474": 0.000407,
+        "475+": 3e-06
+      }
+    },
+    {
+      "period": "2026-03-09 to 2026-03-15",
+      "actual_count": 333,
+      "actual_bucket": "325-374",
+      "predicted_mu": 290.7,
+      "predicted_std": 47.1,
+      "predicted_bucket": "275-324",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.111,
+      "model_prob_for_actual": 0.1989,
+      "bucket_probs": {
+        "0-174": 0.006798,
+        "175-224": 0.073061,
+        "225-274": 0.285468,
+        "275-324": 0.398143,
+        "325-374": 0.198933,
+        "375-424": 0.035349,
+        "425-474": 0.002201,
+        "475+": 4.8e-05
+      }
+    },
+    {
+      "period": "2026-03-16 to 2026-03-22",
+      "actual_count": 354,
+      "actual_bucket": "325-374",
+      "predicted_mu": 291.8,
+      "predicted_std": 46.7,
+      "predicted_bucket": "275-324",
+      "correct": false,
+      "in_top2": false,
+      "brier_score": 0.1102,
+      "model_prob_for_actual": 0.2037,
+      "bucket_probs": {
+        "0-174": 0.005961,
+        "175-224": 0.068567,
+        "225-274": 0.280685,
+        "275-324": 0.402919,
+        "325-374": 0.203662,
+        "375-424": 0.035975,
+        "425-474": 0.002186,
+        "475+": 4.5e-05
+      }
+    }
+  ]
+}
