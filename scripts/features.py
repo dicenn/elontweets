@@ -162,6 +162,20 @@ def build_daily_features(eligible, all_tweets):
     df["daily_change"] = df["eligible_count"].diff()
     df["daily_change_pct"] = (df["daily_change"] / df["eligible_count"].shift(1)).round(4)
 
+    # Regime volatility: rolling 7-day CV (coefficient of variation)
+    df["regime_volatility_7d"] = (
+        df["eligible_rolling_7d_std"] / df["eligible_rolling_7d_mean"].replace(0, np.nan)
+    ).round(4)
+
+    # Merge LLM classification features if available
+    cls_path = OUTPUT_DIR / "daily_classification_features.csv"
+    if cls_path.exists():
+        cls_features = pd.read_csv(cls_path)
+        cls_features["date"] = pd.to_datetime(cls_features["date"]).dt.date
+        df["date"] = pd.to_datetime(df["date"]).dt.date
+        # Merge on date, keeping all daily_features rows
+        df = df.merge(cls_features, on="date", how="left", suffixes=("", "_cls"))
+
     return df
 
 

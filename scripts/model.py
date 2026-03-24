@@ -45,6 +45,7 @@ class BaseRateModel:
         self.base_mu = None
         self.base_alpha = None
         self.regime_adjustments = {}
+        self.daily_autocorrelation = 0.0
 
     def fit(self, daily_features):
         """
@@ -96,14 +97,26 @@ class BaseRateModel:
         else:
             self.regime_adjustments["flurry_uplift"] = 1.0
 
-        # Recency-weighted parameters (last 30 days weighted 2x)
-        if len(df) > 30:
-            recent = df.tail(30)["eligible_count"]
+        # Recency-weighted parameters (last 10 days — faster regime response)
+        if len(df) > 10:
+            recent = df.tail(10)["eligible_count"]
             self.recent_mu = float(recent.mean())
             self.recent_alpha = self._fit_nb_alpha(recent.values, self.recent_mu)
         else:
             self.recent_mu = self.base_mu
             self.recent_alpha = self.base_alpha
+
+        # Store empirical daily autocorrelation for weekly variance correction
+        if len(df) > 14:
+            valid = df.dropna(subset=["eligible_count_lag1"])
+            if len(valid) > 10:
+                self.daily_autocorrelation = float(
+                    np.corrcoef(valid["eligible_count"], valid["eligible_count_lag1"])[0, 1]
+                )
+            else:
+                self.daily_autocorrelation = 0.0
+        else:
+            self.daily_autocorrelation = 0.0
 
         self.fitted = True
         return self
@@ -117,9 +130,15 @@ class BaseRateModel:
         alpha = mu ** 2 / (var - mu)
         return max(float(alpha), 0.1)
 
-    def predict_daily(self, dow, month=None, lag1_count=None, use_recent=True):
+    def predict_daily(self, dow, month=None, lag1_count=None, use_recent=True,
+                       classification_features=None):
         """
         Predict the distribution of eligible tweets for a single day.
+
+        Args:
+            classification_features: dict with LLM-derived features for the
+                previous day (e.g., pct_combative_feud, mean_intensity, feud_pct).
+                Used for regime-conditional adjustments when available.
 
         Returns (mu, alpha) parameterizing a negative binomial distribution.
         """
@@ -134,13 +153,40 @@ class BaseRateModel:
         dow_factor = self.regime_adjustments["dow"].get(dow, 1.0)
         mu *= dow_factor
 
-        # Apply lag-1 autoregressive adjustment
+        # Apply lag-1 autoregressive adjustment (data shows 0.43 autocorrelation)
         if lag1_count is not None:
             lag1_corr = self.regime_adjustments["lag1_corr"]
-            # Partial adjustment toward yesterday's count
+            # Stronger adjustment — empirical autocorrelation supports momentum
             expected_base = self.recent_mu if use_recent else self.base_mu
             adjustment = lag1_corr * (lag1_count - expected_base)
-            mu += adjustment * 0.5  # Dampen the AR effect
+            mu += adjustment * 0.75  # Increased from 0.5 — strong momentum signal
+
+        # Apply classification-based regime adjustments when available
+        if classification_features is not None:
+            # Combative/feud mode drives higher volume (self-reinforcing)
+            combative_pct = classification_features.get("pct_combative_feud", 0)
+            if combative_pct > 0.15:
+                mu *= 1 + (combative_pct - 0.15) * 0.5  # Up to ~10% uplift
+
+            # High intensity days tend to be followed by high volume
+            mean_intensity = classification_features.get("mean_intensity", 3)
+            if mean_intensity > 3.5:
+                mu *= 1 + (mean_intensity - 3.5) * 0.1  # Up to ~15% uplift
+
+            # Low-effort (meme/RT heavy) days = higher raw counts
+            low_effort_pct = classification_features.get("pct_low_effort", 0)
+            if low_effort_pct > 0.5:
+                mu *= 1 + (low_effort_pct - 0.5) * 0.3
+
+            # Feud in progress = volume driver
+            feud_pct = classification_features.get("feud_pct", 0)
+            if feud_pct > 0.1:
+                mu *= 1 + (feud_pct - 0.1) * 0.4
+
+            # High continuation likelihood = more tweets coming
+            high_cont = classification_features.get("high_continuation_pct", 0)
+            if high_cont > 0.3:
+                mu *= 1 + (high_cont - 0.3) * 0.2
 
         mu = max(mu, 5)  # Floor
         return mu, alpha
@@ -162,10 +208,20 @@ class BaseRateModel:
             current_lag = mu  # Use predicted value as lag for next day
 
         weekly_mu = sum(daily_mus)
-        # Variance of sum of independent NB variables
-        # Var(NB) = mu + mu^2/alpha
+        # Variance of sum of correlated NB variables
+        # Var(NB) = mu + mu^2/alpha per day, plus covariance terms
         alpha = self.recent_alpha
-        weekly_var = sum(m + m ** 2 / alpha for m in daily_mus)
+        daily_vars = [m + m ** 2 / alpha for m in daily_mus]
+        independent_var = sum(daily_vars)
+
+        # Add covariance: cov(day_i, day_j) ≈ rho^|i-j| * sqrt(var_i * var_j)
+        rho = getattr(self, "daily_autocorrelation", 0.0)
+        covariance_sum = 0.0
+        for i in range(n_days):
+            for j in range(i + 1, n_days):
+                cov_ij = (rho ** abs(i - j)) * np.sqrt(daily_vars[i] * daily_vars[j])
+                covariance_sum += cov_ij
+        weekly_var = independent_var + 2 * covariance_sum
 
         return weekly_mu, weekly_var, daily_mus
 
