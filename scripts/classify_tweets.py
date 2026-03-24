@@ -127,9 +127,10 @@ def classify_day(client, date, day_tweets, news_context="No news context availab
     )
 
     # Use Haiku for cost efficiency (~$0.02/day)
+    # ~250 output tokens per tweet, so max_tokens scales with batch size
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=4096,
+        max_tokens=8192,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -379,14 +380,14 @@ def run_classification(api_key=None, start_date=None, end_date=None,
         print(f"  [{i+1}/{len(dates)}] {date}: {n_tweets} tweets...", end=" ", flush=True)
 
         try:
-            # For days with many tweets, batch into chunks of ~80
-            if n_tweets > 80:
+            # Chunk into batches of 25 tweets (each produces ~250 output tokens)
+            if n_tweets > 25:
                 all_cls = []
-                for chunk_start in range(0, n_tweets, 80):
-                    chunk = day_tweets.iloc[chunk_start:chunk_start + 80]
+                for chunk_start in range(0, n_tweets, 25):
+                    chunk = day_tweets.iloc[chunk_start:chunk_start + 25]
                     cls = classify_day(client, date, chunk, news_context)
                     all_cls.extend(cls)
-                    if chunk_start + 80 < n_tweets:
+                    if chunk_start + 25 < n_tweets:
                         time.sleep(0.5)  # Rate limit courtesy
                 classifications = all_cls
             else:
