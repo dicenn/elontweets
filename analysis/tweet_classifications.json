@@ -151151,5 +151151,3290 @@
       "is_thread_part": false,
       "meme_or_emoji_only": true
     }
+  ],
+  "2026-01-18": [
+    {
+      "tweet_id": "2012678096726446245",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "existential threat",
+        "government"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Policy or political development affecting government/DOGE",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012678908672401839",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Virginia governor",
+        "executive orders"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Abigail Spanberger repeals Youngkin executive order",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012678953023021340",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "voter ID",
+        "policy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political debate over ID requirements",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012679227821146495",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012685391841673724",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "policy"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012685674248290384",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Grok",
+        "AI features"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012686230920511624",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "Falcon",
+        "missions"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "SpaceX Falcon reaches 600 missions milestone",
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012686321408524589",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012686911584829575",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "factual statement",
+        "policy"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012687707936301401",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012688100095307866",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Republican strategy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Republican political strategy discussion",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012688221872717859",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Democratic criticism",
+        "Soviet comparison"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political criticism of Democratic leadership",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012688308011192678",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "immigration",
+        "deportation policy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Immigration enforcement debate",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012688402949321084",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "DOGE",
+        "spending cuts"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Democratic opposition to DOGE cuts",
+      "continuation_likelihood": 3,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012688484713066892",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012689044929474612",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "left-wing hypocrisy",
+        "political commentary"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political double standard commentary",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689106443063478",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "drug overdose deaths",
+        "statistics"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Drug overdose death statistics shared",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689150965613036",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "statistical assessment"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689344180474228",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "unknown topic"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689389088903605",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "Raptor 3 engine"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Raptor 3 engine design praise",
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689515765190774",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Starlink",
+        "internet service"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012689740395434236",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012690081128075519",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Polymarket prediction surprise",
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012690413426024498",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Grok",
+        "AI features",
+        "Imagine"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012690846483685620",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "simulation hypothesis",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012694594937360803",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "X platform"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012699865038331996",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012742976565346348",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "hypocrisy",
+        "calling out"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "discussion of public statements",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012743714318217507",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "Tesla stock",
+        "financial behavior"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "questions about stock sales",
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012743958179274941",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012744227499790648",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "election integrity",
+        "security"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "concerns about election security",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012744637337743410",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012745037721866553",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "investigation",
+        "looking into topics"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "claim or concern raised",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012745236796031256",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012745303628128370",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "confirmation"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "confirmation of claims",
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012745412159951064",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012745506754105547",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "surprising statement",
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012746344469770665",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012748040549937189",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "demographics",
+        "birth rates",
+        "cultural extinction"
+      ],
+      "intensity": 3,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "discussion of replacement theory and demographics",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012748634513711610",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012756384559817033",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "AI models",
+        "self-driving",
+        "Optimus",
+        "Dojo"
+      ],
+      "intensity": 2,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "discussion of AI roadmap",
+      "continuation_likelihood": 4,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012756693361279074",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "treason",
+        "punishment"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": true,
+      "feud_target": "unspecified political actor",
+      "is_reactive": true,
+      "news_event": "political betrayal or action",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012758517464129582",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "autonomous driving",
+        "AI safety",
+        "technical problem"
+      ],
+      "intensity": 2,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "discussion of self-driving progress",
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012761193283248364",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Republican messaging",
+        "political advocacy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Republican political message on TV",
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012762668986180027",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Grok",
+        "AI ethics",
+        "constitution"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012773092750135447",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "cultural commentary",
+        "family"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012773189483372625",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Starlink",
+        "business news"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Starlink adoption news",
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012781958598734280",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Starlink",
+        "business adoption"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Starlink airline adoption",
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012782343644205153",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "politics",
+        "Republican messaging"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "political commentary on left",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012782504642519547",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "political threat",
+        "imprisonment"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "concerns about political persecution",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012783246665302484",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor",
+        "reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012783966764388465",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "immigration",
+        "Netherlands"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Netherlands housing scandal with asylum seekers",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012784075119960415",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "media criticism"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012784143868793329",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "mainstream media",
+        "criticism"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012784967042949580",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "reaction",
+        "approval"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012790236225437828",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "borders",
+        "Greenland",
+        "America"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Trump Greenland territorial discussions",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012790706855694511",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor",
+        "reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012790778360193033",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Grok",
+        "AI image generation",
+        "video generation"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012791063585399223",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "immigration",
+        "policy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE enforcement and shutdown negotiations",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012792450985738457",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "content amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012792932114321495",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Grok",
+        "AI video generation"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012793438534521087",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "technical specifications",
+        "performance"
+      ],
+      "intensity": 1,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012793671670792228",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "reaction",
+        "thinking"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012793802205937674",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "entertainment",
+        "Tron"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012798804299260232",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "affirmation"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012925610889216040",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "SAVE Act",
+        "immigration policy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Immigration policy discussions and shutdown talks",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012925687926002160",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "redistricting",
+        "corruption",
+        "Indiana"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012926228647305444",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "content amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012927734897344745",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012927926375686392",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "violence",
+        "political violence",
+        "Minneapolis"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political violence and ICE-related confrontations",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012928295680069989",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "immigration",
+        "statistics",
+        "Democratic support"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Immigration policy debates",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012928888356175988",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "drug use",
+        "criticism",
+        "social commentary"
+      ],
+      "intensity": 3,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012929041133666685",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "prediction",
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012930821410160777",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor",
+        "reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012931931650785400",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "xAI performance",
+        "computational efficiency",
+        "technical details"
+      ],
+      "intensity": 1,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012932398833336717",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "AI4",
+        "safety"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012932599996416020",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2012932874534580235",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "Raptor 3 engine"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012995093066654059",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "Voter ID",
+        "Congress",
+        "voting"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political debate over voter ID laws",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012995133185122375",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "Hakeem Jeffries",
+        "Democrats",
+        "immunity"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political tensions over selective immunity",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012995759730221094",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "political content"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political news event",
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2012996436682551746",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013031214303596779",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "America",
+        "policy"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political/policy content",
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013031385741529590",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Starlink",
+        "UK"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013032528794333619",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "disagreement",
+        "political content"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013032774723084645",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "Falcon",
+        "satellites"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013032827307131117",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "Senate Republicans",
+        "filibuster",
+        "governance"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Senate political debate",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013034224828215706",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Tesla",
+        "AI5 chip",
+        "Dojo3",
+        "recruitment"
+      ],
+      "intensity": 2,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013034383163154790",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Grok",
+        "AI",
+        "product"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013034510317715622",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "Starlink",
+        "satellites"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013034652827599062",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013035130105852014",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "political content"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013035890860290137",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    }
+  ],
+  "2026-01-19": [
+    {
+      "tweet_id": "2013050946306052180",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Grok",
+        "AI capability"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Snake identification query",
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013051544803910128",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "DOGE",
+        "xAI"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013052098154270928",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "casual agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013054666636972189",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "empathy",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013056648059797984",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "victory",
+        "defeat",
+        "wisdom"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013068183557849104",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "spending bill",
+        "SAVE Act"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Speaker Johnson and Steve Scalise legislative action",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013096610754920625",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor",
+        "sarcasm"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013101288381456809",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "media criticism"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Interview tampering accusation",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013108912380326218",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Tesla AI5 chip",
+        "AI chip development"
+      ],
+      "intensity": 3,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013109374869250075",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "Boring Company",
+        "tunnels"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013109612829163686",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "SpaceX",
+        "space AI"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013110486410363094",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "technology news"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013117477366948082",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "AI development"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013117759580692926",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "casual agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013117998014615958",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "casual reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013118081699377628",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013118576522150351",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "casual reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013118680910164251",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "casual agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013119237934502381",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Grok",
+        "ICE statistics"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE enforcement coverage",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013120065458336061",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "xAI"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013120687599472847",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "policy assessment"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013120734449840456",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "ICE enforcement",
+        "local politics"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE enforcement policy discussion",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013120924015308956",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "xAI Grok competition"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013120948267098268",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "xAI Grok competition"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013121360839782526",
+      "mode": "TECH_PRODUCT",
+      "topics": [
+        "robotics",
+        "AI training"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013121827313234085",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "immigration",
+        "America safety concerns"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE deployment and immigration enforcement concerns",
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013122670070493414",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "media criticism",
+        "articles"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Media coverage of political events",
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013123427645730870",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013123580486176983",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "memes",
+        "X platform feature"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013124084994080906",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "ICE",
+        "BLM",
+        "immigration enforcement"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE deployment and immigration enforcement",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013125674060402699",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013127341984432345",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013127758063493300",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "ICE",
+        "child exploitation",
+        "immigration enforcement"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE deployment and activism responses",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013128430242734168",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "humor",
+        "funny video"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013129768368320882",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "AI",
+        "jobs",
+        "economic impact"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013131358944608534",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Seattle politics",
+        "fraud investigation",
+        "law enforcement"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Local governance and fraud allegations",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013136403656589739",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013136762189513208",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013137702502220165",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013137804532867180",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "optimism",
+        "future outlook"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013137953887756798",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013138042438164789",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013138458236297618",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "birth rates",
+        "demographic policy",
+        "government priority"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013139707518214631",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013269354817691703",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "OpenAI",
+        "ChatGPT",
+        "AI safety",
+        "truthfulness"
+      ],
+      "intensity": 4,
+      "effort_level": "medium",
+      "is_feud": true,
+      "feud_target": "OpenAI",
+      "is_reactive": true,
+      "news_event": "ChatGPT involvement in murder-suicide case",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013269717818167579",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013270060266328211",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "religious representation",
+        "politics",
+        "diversity"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Political appointments and religious representation",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013270708126695858",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "approval"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013270768415875176",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "ICE",
+        "child exploitation",
+        "activism"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE enforcement and activist response",
+      "continuation_likelihood": 2,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013271550636826797",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "voting integrity",
+        "election security",
+        "mail-in voting",
+        "voter ID"
+      ],
+      "intensity": 3,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Voting security and election integrity discussions",
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013272251723039087",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "law enforcement",
+        "arrests"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "unspecified incident involving arrests",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013273488182911059",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "harassment",
+        "law enforcement"
+      ],
+      "intensity": 4,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Five Guys incident involving harassment",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013313170195259657",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013314785392370088",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "Ryanair",
+        "humor",
+        "acquisition"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013314969010610245",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "Ryanair",
+        "name pun",
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "positive",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013315607253655621",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "Ryanair",
+        "name pun",
+        "absurdist humor"
+      ],
+      "intensity": 2,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013316588515271143",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "Starlink",
+        "maritime",
+        "SpaceX"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "Hyundai Glovis installs Starlink on fleet",
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013330445467787338",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "voter ID",
+        "election integrity",
+        "democracy"
+      ],
+      "intensity": 4,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "election security and voting policy debate",
+      "continuation_likelihood": 4,
+      "sentiment": "negative",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013331267257860139",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "voter ID",
+        "election integrity",
+        "voting requirements"
+      ],
+      "intensity": 4,
+      "effort_level": "high",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "election security and voting policy debate",
+      "continuation_likelihood": 4,
+      "sentiment": "negative",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013333000541405636",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "Ryanair",
+        "Michael O'Leary",
+        "personal attack"
+      ],
+      "intensity": 5,
+      "effort_level": "medium",
+      "is_feud": true,
+      "feud_target": "Michael O'Leary",
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": true,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013333827138003210",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "amplification"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013333901318525073",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "laughter",
+        "amusement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013334125743112637",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "left-wing violence",
+        "political criticism"
+      ],
+      "intensity": 4,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "political violence and leftist actions",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013336373831324007",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "child protection",
+        "law enforcement"
+      ],
+      "intensity": 5,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "child predator arrest obstruction",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013336727037858059",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "mental health criticism",
+        "personal attack"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": true,
+      "feud_target": "nicksortor (implied target of quote)",
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013337680386424898",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "SpaceX",
+        "Tesla Roadster in space"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013337959202795627",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "humor",
+        "emoji response"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013338165491187828",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "agreement",
+        "emoji"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013338413689143677",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "quantum mechanics",
+        "wordplay",
+        "humor"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013338865059180874",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013338938086187205",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "surprise",
+        "minimal reaction"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013339135302414563",
+      "mode": "PERSONAL_PHILOSOPHICAL",
+      "topics": [
+        "probability",
+        "entertainment",
+        "philosophy"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 2,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013339635393409436",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "link-only",
+        "unclear content"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013339861911040062",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "crime",
+        "law enforcement",
+        "justice"
+      ],
+      "intensity": 3,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "criminal justice case",
+      "continuation_likelihood": 2,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013344858551861316",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "agreement",
+        "minimal response"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013345078643662985",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "celebrity commentary",
+        "humor"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013360084013764623",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "content amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013371401865134281",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "corporate humor",
+        "Starlink"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013371621021528178",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013373778655428774",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "ICE",
+        "immigration enforcement",
+        "anti-protest"
+      ],
+      "intensity": 4,
+      "effort_level": "medium",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE deportation operations and anti-ICE protests",
+      "continuation_likelihood": 4,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013373933840671082",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013376962602115207",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "content amplification"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013379627218006059",
+      "mode": "MEME_SHITPOST",
+      "topics": [
+        "pet humor",
+        "meme"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013395010746462512",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement",
+        "humor"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013395523055534512",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "content amplification"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013395563786514859",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "positive",
+      "is_thread_part": false,
+      "meme_or_emoji_only": true
+    },
+    {
+      "tweet_id": "2013396256991727847",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 2,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013396432712061069",
+      "mode": "POLITICAL_DOGE",
+      "topics": [
+        "immigration enforcement",
+        "protests",
+        "leftist activism"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": true,
+      "news_event": "ICE deportation operations and anti-ICE protests",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013397255529652520",
+      "mode": "SIGNAL_BOOST",
+      "topics": [
+        "agreement"
+      ],
+      "intensity": 1,
+      "effort_level": "low",
+      "is_feud": false,
+      "feud_target": null,
+      "is_reactive": false,
+      "news_event": null,
+      "continuation_likelihood": 1,
+      "sentiment": "neutral",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    },
+    {
+      "tweet_id": "2013398028011372970",
+      "mode": "COMBATIVE_FEUD",
+      "topics": [
+        "trans rights",
+        "protests",
+        "sarcasm"
+      ],
+      "intensity": 3,
+      "effort_level": "low",
+      "is_feud": true,
+      "feud_target": "EndWokeness, transgender advocacy",
+      "is_reactive": true,
+      "news_event": "ICE deportation operations and anti-ICE protests",
+      "continuation_likelihood": 3,
+      "sentiment": "negative",
+      "is_thread_part": false,
+      "meme_or_emoji_only": false
+    }
   ]
 }
